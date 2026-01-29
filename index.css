@@ -56,6 +56,11 @@ nav {
     color: #073917;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .top-main {
     height: 350px;
@@ -127,4 +132,54 @@ nav {
     to {
         transform: rotate(360deg);
     }
+}
+
+.center-button{
+    margin-top: 1%;
+    margin-left: 10%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.brief{
+    display: flex;
+    align-items: center;
+    background-color: #140F1A;
+    margin-left: 2%;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #4A4755;
+}
+
+.decode {
+     display: flex;
+    align-items: center;
+    background-color: #140F1A;
+    margin-left: 1%;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #4A4755;
+}
+
+.drone {
+    background-color: #140F1A;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    border: 1px solid #4A4755;
+}
+
+.brief a,.decode a, .drone a {
+    text-decoration: none;
+    color: #969097;
+    margin-left: 12%;
+}
+
+.brief svg, .drone svg, .decode svg {
+    padding-right:5px ;
 }
