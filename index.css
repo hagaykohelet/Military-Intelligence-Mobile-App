@@ -74,13 +74,14 @@ main {
 }
 
 
-.text-numbers{
+.text-numbers {
     align-self: center;
     margin-top: 4%;
     color: white;
 }
 
-.text-numbers strong, p{
+.text-numbers strong,
+p {
     width: 100%;
     margin: 30%;
 }
@@ -91,6 +92,7 @@ main {
     font-size: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 .text {
     font-size: 10px;
     color: #4A4755;
@@ -102,7 +104,7 @@ main {
     left: 19%;
 
     overflow: hidden;
-    
+
     margin: -117px;
     width: 248px;
     height: 248px;
@@ -134,14 +136,14 @@ main {
     }
 }
 
-.center-button{
+.center-button {
     margin-top: 1%;
     margin-left: 10%;
     display: flex;
     align-items: flex-start;
 }
 
-.brief{
+.brief {
     display: flex;
     align-items: center;
     background-color: #140F1A;
@@ -153,7 +155,7 @@ main {
 }
 
 .decode {
-     display: flex;
+    display: flex;
     align-items: center;
     background-color: #140F1A;
     margin-left: 1%;
@@ -174,12 +176,101 @@ main {
     border: 1px solid #4A4755;
 }
 
-.brief a,.decode a, .drone a {
+.brief a,
+.decode a,
+.drone a {
     text-decoration: none;
     color: #969097;
     margin-left: 12%;
 }
 
-.brief svg, .drone svg, .decode svg {
-    padding-right:5px ;
+.brief svg,
+.drone svg,
+.decode svg {
+    padding-right: 5px;
 }
+
+.cards {
+    margin-top: 1%;
+    margin-left: 12%;
+    margin-right: 13%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    border: 2px solid #4A4755;
+    width: 300px;
+    height: 170px;
+    border-radius: 12px;
+    background-color: #140F1E;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+
+}
+
+.card p {
+    margin: 0;
+}
+
+.top-card {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.top-card p {
+    font-size: 13px;
+    color: #4B474E;
+    margin-right: 10px;
+}
+
+
+.top-left {
+    width: 60px;
+    height: 20px;
+    color: #872244;
+    background-color: #3C1828;
+    font-size: 13px;
+    margin-left: 3%;
+    border: 1px solid #4F1C2F;
+    border-radius: 5px;
+}
+
+.text-middle {
+    padding-left: 3%;
+    color: rgba(92, 89, 97);
+}
+
+.bottom-card {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.bottom-card p {
+    grid-column-start: span2;
+    margin-right: 5px;
+    color: rgba(25, 104, 48);
+}
+
+.line {
+    display: flex;
+    margin-top: 4%;
+}
+
+.green {
+    margin-left: 5%;
+    width: 100px;
+    height: 0;
+    border: 2px solid green;
+}
+
+.grey {
+    width: 100px;
+    height: 0;
+    border: 2px solid rgba(41, 38, 49);
+}
+
